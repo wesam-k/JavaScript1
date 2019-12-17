@@ -1,18 +1,16 @@
-'usr strict'
+'use strict'
+
+const cartForParty= {
+    apple :2.5,
+    banana: 1.99,
+    chips: 1.29,
+    win: 5.78,
+    beer: 4
+};
 
 function calculateTotalPrice(cartForParty){
 
-    
-      cartForParty= {
-        apple :2.5,
-        banana: 1.99,
-        chips: 1.29,
-        win: 5.78,
-        beer: 4
-    };
-
-
-    cartArry = Object.values(cartForParty);
+    const cartArry = Object.values(cartForParty);
 
 
      const sum =cartArry.reduce((accumulator,currentValue) =>{

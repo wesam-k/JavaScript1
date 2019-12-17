@@ -2,11 +2,11 @@
 
 function giveCompliment(myName){
 
-    const compliment =['great', 'awesome','imposing','wonderful','striking','strong',
+    const compliments =['great', 'awesome','imposing','wonderful','striking','strong',
     'tremendous','considerable','heroic','major'];
     
-    let rand = Math.floor(Math.random()*compliment.length);
-          return `you are ${compliment[rand]}  ${myName}`;
+    let rand = Math.floor(Math.random()*compliments.length);
+          return `you are ${compliments[rand]}  ${myName}`;
   
 
       

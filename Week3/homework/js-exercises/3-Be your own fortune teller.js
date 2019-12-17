@@ -1,13 +1,13 @@
 'use strict'
 
+
+    const numChildren = [3,4,5,1,2];
+    const partnerNames = ['Mary', 'Ana','Fadi','Wael','Beno'];
+    const locations = ['Paris','Rome','Amsterdam','London','Mali'];
+    const jobs =['Accountant','Manager','Engineer','Artist','HR'];
+
 function tellFortune(numChildren,partnerNames,locations,jobs){
-
-    numChildren = [3,4,5,1,2];
-    partnerNames = ['Mary', 'Ana','Fadi','Wael','Beno'];
-    locations = ['Paris','Rome','Amsterdam','London','Mali'];
-    jobs =['Accountant','Manager','Engineer','Artist','HR'];
-
-        
+     
     const childrenRand = Math.floor(Math.random()*numChildren.length); // the first method,( long process)
     const partnerRand = Math.floor(Math.random()* partnerNames.length);
     const locationRand = Math.floor(Math.random()* locations.length);
